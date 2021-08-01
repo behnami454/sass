@@ -1,0 +1,211 @@
+header {
+  background-color: #9e1128;
+  padding: 8px;
+  border: 2px solid #e7e2d7; }
+  header h2 {
+    display: inline-block;
+    color: white;
+    padding: 20px; }
+  header a {
+    text-decoration: none;
+    float: right;
+    color: white;
+    padding: 30px;
+    font-size: 29px; }
+
+section {
+  background-color: #404d58;
+  margin: 5px 200px 5px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #146914;
+  border-radius: 30deg; }
+  section div.six {
+    color: white;
+    font-size: 20px;
+    padding-left: 120px; }
+  section div.eight {
+    color: white;
+    font-size: 20px;
+    padding-left: 120px; }
+  section .nine {
+    margin-left: 70px; }
+  section div.ten {
+    color: white;
+    font-size: 20px;
+    padding-left: 120px; }
+  section div.twelve {
+    color: white;
+    font-size: 20px;
+    padding-left: 130px; }
+  section button {
+    background-color: purple;
+    padding: 17px;
+    margin-left: 120px; }
+
+p {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid #9e1128;
+  animation-name: icon;
+  animation-duration: 3s; }
+
+#maldini {
+  border: 2px solid red;
+  height: 300px;
+  display: inline-block;
+  width: 300px;
+  margin-left: 10px;
+  vertical-align: top;
+  border: 2px solid #090986; }
+
+#baresi {
+  border: 2px solid red;
+  height: 300px;
+  display: inline-block;
+  width: 300px;
+  margin-left: 10px;
+  vertical-align: top; }
+
+#costacurta {
+  border: 2px solid red;
+  height: 300px;
+  display: inline-block;
+  width: 300px;
+  margin-left: 10px;
+  vertical-align: top; }
+
+#kaka {
+  border: 2px solid red;
+  height: 300px;
+  display: block;
+  width: 300px;
+  display: inline-block;
+  margin-left: 11px;
+  vertical-align: top; }
+
+#legends {
+  margin: 20px; }
+
+#maldini-one {
+  position: absolute;
+  padding: 35px;
+  margin-left: 30px; }
+
+#baresi-one {
+  position: absolute;
+  padding: 35px;
+  margin-left: 30px; }
+
+#costacurta-one {
+  position: absolute;
+  padding: 35px;
+  margin-left: 30px; }
+
+#kaka-one {
+  position: absolute;
+  padding: 35px;
+  margin-left: 30px; }
+
+#maldini-photo img {
+  width: 170px;
+  height: 170px; }
+
+#baresi-photo img {
+  width: 170px;
+  height: 170px; }
+
+#costacurta-photo img {
+  width: 170px;
+  height: 170px; }
+
+#kaka-photo img {
+  width: 170px;
+  height: 170px; }
+
+.maldini-text h1 {
+  text-align: center;
+  font-family: cursive; }
+
+.maldini-text h3 {
+  text-align: center;
+  font-family: -webkit-pictograph; }
+
+.baresi-text h1 {
+  text-align: center;
+  font-family: cursive; }
+
+.baresi-text h3 {
+  text-align: center;
+  font-family: -webkit-pictograph; }
+
+.costacurta-text h1 {
+  text-align: center;
+  font-family: cursive; }
+
+.costacurta-text h3 {
+  text-align: center;
+  font-family: -webkit-pictograph; }
+
+.kaka-text h1 {
+  text-align: center;
+  font-family: cursive; }
+
+.kaka-text h3 {
+  text-align: center;
+  font-family: -webkit-pictograph; }
+
+form {
+  margin-left: 425px;
+  font-size: 30px;
+  text-align: left;
+  border: 2px solid gray;
+  padding: 10px;
+  display: inline;
+  animation-name: legend;
+  animation-duration: 2s; }
+
+select {
+  margin-left: 500px;
+  background-color: #e6dada;
+  display: inline;
+  padding: 20px; }
+
+button {
+  background-color: #690c52;
+  margin-left: 80px;
+  padding: 17px;
+  color: white; }
+
+footer {
+  border: 5px solid #152e77;
+  margin: 15px; }
+  footer div.eighteen {
+    display: inline; }
+    footer div.eighteen img.one-more {
+      width: 200px;
+      margin: 10px;
+      padding: 30px;
+      height: 250px; }
+  footer h2.h2-one {
+    display: inline;
+    float: right;
+    margin-right: 520px;
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: none;
+    border: 1px solid black;
+    color: white;
+    background-color: #152e77; }
+
+@keyframes legend {
+  100% {
+    background-color: royalblue; } }
+
+@keyframes icon {
+  100% {
+    background-color: #3b0b4e; } }

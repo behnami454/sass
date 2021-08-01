@@ -1,0 +1,288 @@
+@import 'variable' ;
+@import 'fonts.scss' ;
+@import 'mixin';
+
+header {
+    background-color: $color-seven;
+    padding: 8px;
+    border: 2px solid rgb(231, 226, 215);
+
+    h2{
+        display: inline-block;
+        color: white;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        float: right;
+        color: white;
+        padding: 30px;
+        font-size: 29px
+    
+    }
+}
+section{
+    background-color: $color-two;
+    margin: 5px 200px 5px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid $color-five;
+    border-radius: 30deg;
+
+
+    div.six{
+        color: $color-eight;
+        font-size: 20px;
+        padding-left: 120px;
+    }
+    div.eight{
+         color: $color-eight;
+         font-size: 20px;
+        padding-left: 120px;
+    }
+    .nine{
+        margin-left: 70px;
+    }
+    
+    div.ten{
+         color: $color-eight;
+         font-size: 20px;
+        padding-left: 120px;
+    }
+    
+    div.twelve{
+         color: $color-eight;
+         font-size: 20px;
+        padding-left: 130px;
+    }
+    button{
+        background-color: purple;
+        padding: 17px;
+        margin-left: 120px;
+        
+    }
+
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid $color-seven;
+    animation-name: icon;
+    animation-duration: 3s;
+}
+
+#maldini{
+    border: 2px solid red;
+    height: 300px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    vertical-align:top;
+    border: 2px solid $color-four;
+ }
+   
+
+#baresi{
+    border: 2px solid red;
+    height: 300px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    vertical-align:top;
+    
+}
+
+
+#costacurta{
+    border: 2px solid red;
+    height: 300px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    vertical-align:top;
+}
+
+
+#kaka{
+    border: 2px solid red;
+    height: 300px;
+    display: block;
+    width: 300px;
+    display: inline-block;
+    margin-left: 11px;
+    vertical-align: top;
+}
+
+#legends{
+    
+    margin: 20px;
+}
+#maldini-one{
+    position: absolute;
+    padding: 35px;
+    margin-left: 30px;
+    
+}
+#baresi-one{
+
+    position: absolute;
+    padding: 35px;
+    margin-left: 30px;
+    
+
+}
+#costacurta-one{
+    
+    position: absolute;
+    padding: 35px;
+    margin-left: 30px;
+   
+}
+#kaka-one{
+
+    position: absolute;
+    padding: 35px;
+    margin-left: 30px;
+   
+}
+#maldini-photo{
+    img{
+        width: 170px;
+        height: 170px;
+    }
+}
+#baresi-photo{
+    img{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+
+#costacurta-photo{
+    img{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+
+#kaka-photo{
+    img{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+.maldini-text{
+    h1{
+        text-align: center;
+        font-family: $font-family-two;
+    }
+    h3{
+        text-align: center;
+        font-family: $font-family-one;
+    }
+}
+.baresi-text{
+    h1{
+        text-align: center;
+        font-family: $font-family-two;
+    }
+    h3{
+        text-align: center;
+        font-family: $font-family-one;
+    }
+
+}
+.costacurta-text{
+    h1{
+        text-align: center;
+        font-family: $font-family-two;
+    }
+    h3{
+        text-align: center;
+        font-family: $font-family-one;
+    }
+
+}
+.kaka-text{
+
+    h1{
+        text-align: center;
+        font-family: $font-family-two;
+    }
+    h3{
+        text-align: center;
+        font-family: $font-family-one;
+    }
+}
+form{
+    margin-left: 425px;
+    font-size: 30px;
+    text-align: left;
+    border: 2px solid gray;
+    padding: 10px;
+    display: inline;
+    animation-name: legend;
+    animation-duration: 2s;
+}
+select{
+    margin-left: 500px;
+    background-color: #e6dada;
+    display: inline;
+    padding: 20px;
+}
+button{
+    background-color: #690c52;
+    margin-left: 80px;
+    padding: 17px;
+    color: white;
+}
+footer{
+    border: 5px solid rgb(21, 46, 119);
+    margin: 15px;
+
+    div.eighteen{
+        display: inline;
+
+       img.one-more {
+        width: 200px;
+        margin: 10px;
+        padding: 30px;
+        height: 250px;
+    }
+       
+       }
+      
+       h2.h2-one{
+        display: inline;
+        float: right;
+        margin-right: 520px;
+        padding: 20px;
+        margin-top: 70px;
+        font-size: 30px;
+        font-family: none;
+        border: 1px solid black;
+        color: white;
+        background-color: rgb(21, 46, 119);
+       }
+    }
+    @keyframes legend{
+        100%{ background-color: royalblue;
+        }
+    }
+    @keyframes icon{
+        100%{background-color: rgb(59, 11, 78);}
+    }
+     
+      
+        
+      
+       
+
+    
